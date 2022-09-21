@@ -1,0 +1,26 @@
+.boton-contenedor {
+    height: 83px;
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgb(198, 198, 198);
+    border-radius: 25px;
+    margin: 10px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #fffbfb, #d7d4d4);
+    box-shadow:  6px 6px 12px #cbc8c8,
+                 -6px -6px 12px #ffffff;
+  }
+
+  .boton-contenedor:active{
+    border-radius: 20px;
+    background: #efebeb;
+    box-shadow: inset 6px 6px 12px #e1dddd,
+                inset -6px -6px 12px #fdf9f9;
+    
+  }

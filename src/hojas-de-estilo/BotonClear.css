@@ -1,0 +1,23 @@
+.boton-clear {
+    height: 80px;
+    font-size: 1.6em;
+    display: flex;
+    flex: 1;
+    margin-top: 8px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(198, 198, 198);
+    border-radius: 20px;
+    cursor: pointer;  
+    background: linear-gradient(145deg, #fffbfb, #d7d4d4);
+    box-shadow:  6px 6px 12px #cbc8c8,
+                 -6px -6px 12px #ffffff;    
+  }
+  
+  .boton-clear:active{
+    border-radius: 20px;
+    background: #efebeb;
+    box-shadow: inset 6px 6px 12px #e1dddd,
+                inset -6px -6px 12px #fdf9f9;
+  }
