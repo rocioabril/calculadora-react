@@ -54,7 +54,7 @@ function App() {
         </div>
         <div className='fila'>
           <BotonClear manejarClear={()=> setInput('')}>{/*lo seteo aca porque es una funcion sencilla*/}
-            Clear
+            Limpiar
           </BotonClear>
         </div>
       </div>
